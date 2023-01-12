@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9640489360",
+    "project_id": "tgtodosapp",
+    "storage_bucket": "tgtodosapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9640489360:android:5d80c7aa17e63a23e78315",
+        "android_client_info": {
+          "package_name": "com.example.todosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9640489360-keo6mtl15m38pthhmgb4t0bc5l6ivkde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6obtsf1jb2cydV-xE2gVqzJm48_DGBXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9640489360-keo6mtl15m38pthhmgb4t0bc5l6ivkde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

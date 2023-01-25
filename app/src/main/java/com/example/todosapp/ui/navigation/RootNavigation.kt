@@ -2,10 +2,13 @@ package com.example.todosapp.ui.navigation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.*
+import com.example.todosapp.ui.views.CreateTodo
 import com.example.todosapp.ui.views.TodosList
 
 @OptIn(ExperimentalMaterialApi::class)
@@ -33,6 +36,9 @@ fun RootNavigation() {
                 ) {
                 composable(route = Routes.todosList.route) {
                     TodosList(navController = navController)
+                }
+                composable(route = Routes.createTodo.route) {
+                    CreateTodo(navController = navController)
                 }
             }
         }

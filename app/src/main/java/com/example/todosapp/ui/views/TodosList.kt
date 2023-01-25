@@ -14,7 +14,7 @@ import com.example.todosapp.ui.viewModels.TodosListViewModel
 
 @Composable
 fun TodosList(navController: NavController) {
-    val viewModel: TodosListViewModel = viewModel()
+//    val viewModel: TodosListViewModel = viewModel()
     
     Column(modifier = Modifier
         .fillMaxSize()

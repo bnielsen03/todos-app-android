@@ -13,7 +13,7 @@ class CreateTodoViewModel(application: Application): AndroidViewModel(applicatio
     var description by mutableStateOf("")
 
     //needs to be a suspend function
-    fun createTodo() {
+    suspend fun createTodo() {
         TodosRepository.create(
             Todo(
                 name = name,

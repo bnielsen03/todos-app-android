@@ -12,7 +12,6 @@ import com.example.todosapp.ui.viewModels.CreateTodoViewModel
 fun CreateTodo(navController: NavController) {
     val viewModel: CreateTodoViewModel = viewModel()
     val scope = rememberCoroutineScope()
-    /Users/jacobymurray/projects/homework/usu_fall2021/CS2410/TodosApp/app/src/main/java/com/example/todosapp/ui/views/CreateTodo.kt
     //add button to save the todo
     //add route to this page
     Column() {

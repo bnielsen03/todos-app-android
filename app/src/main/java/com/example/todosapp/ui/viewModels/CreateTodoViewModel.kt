@@ -11,6 +11,9 @@ import com.example.todosapp.ui.repositories.TodosRepository
 class CreateTodoViewModel(application: Application): AndroidViewModel(application) {
     var name by mutableStateOf("")
     var description by mutableStateOf("")
+    var category by mutableStateOf("")
+
+    var dropDown by mutableStateOf(false)
 
     //needs to be a suspend function
     suspend fun createTodo() {

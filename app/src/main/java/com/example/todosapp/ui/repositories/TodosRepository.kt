@@ -10,6 +10,7 @@ import kotlinx.coroutines.tasks.await
 object TodosRepository {
     private val todosCache = mutableListOf<Todo>()
 
+
     suspend fun create(todo: Todo): Todo {
         val doc = Firebase.firestore.collection(CollectionPath.COLLECTION_TODO.value).document()
         todo.id = doc.id
